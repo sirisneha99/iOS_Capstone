@@ -118,6 +118,13 @@
 | note      | String | Optional mood explanation |
 | date      | Date   | Entry date                |
 
+----
+
+## Video Walkthrough
+
+Loom link to project demo - https://www.loom.com/share/e48581d4ae6149a7a0e1a8072bbd6a4e?sid=3d0127ec-8080-49ab-94ab-9b085f130549 
+
+
 ---
 
 ### Networking
