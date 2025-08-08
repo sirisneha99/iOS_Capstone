@@ -1,7 +1,3 @@
-Original App Design Project - README Template
-
-===
-
 # LifeSync
 
 ## Table of Contents
@@ -12,12 +8,12 @@ Original App Design Project - README Template
 
 ---
 
-## 🧭 Overview
+## Overview
 
-### 📄 Description  
-**LifeSync** is an all-in-one iOS productivity and wellness app that combines task management, calendar scheduling, mood journaling, and insights. It helps users track their tasks and emotional well-being over time, offering meaningful insights into their productivity and mood patterns.
+### Description
+**LifeSync** is an all-in-one iOS productivity and wellness app that combines task management, calendar scheduling, mood journaling, and insights. It helps users track their tasks and emotional well-being over time, offering meaningful insights into productivity and mood patterns.
 
-### 🧪 App Evaluation  
+### App Evaluation
 - **Category:** Productivity / Wellness  
 - **Mobile:** Exclusively iOS with tab navigation using SwiftUI  
 - **Story:** Helps users improve task planning while keeping track of emotional wellness through mood journaling and analytics  
@@ -27,60 +23,62 @@ Original App Design Project - README Template
 
 ---
 
-## 📦 Product Spec
+## Product Spec
 
-### 1. User Stories
+### 1. User Stories (Required and Optional)
 
-#### ✅ Required Must-have Stories
-- User can add, edit, delete tasks  
-- User can view a calendar and see tasks by date  
-- User can log daily mood using emojis or sliders  
-- User can write a short note about mood  
-- User can view mood trends over week, month, or year  
-- Local data persistence for tasks and mood entries  
+**Required Must-have Stories**
+- [x] User can add tasks  
+- [x] User can edit tasks  
+- [x] User can delete tasks  
+- [x] User can view a calendar and see tasks by date  
+- [ ] User can log daily mood using emojis or sliders  
+- [ ] User can write a short note about mood  
+- [ ] User can view mood trends over week, month, or year  
+- [ ] Local data persistence for tasks and mood entries  
 
-#### ✨ Optional Nice-to-have Stories
-- User can receive daily reminders to log mood  
-- User can filter tasks by mood or priority  
-- Insights screen can show task-mood correlation  
-- Dark mode toggle  
-- Streak tracker for habits or mood  
+**Optional Nice-to-have Stories**
+- [ ] User can receive daily reminders to log mood  
+- [ ] User can filter tasks by mood or priority  
+- [ ] Insights screen can show task-mood correlation  
+- [ ] Dark mode toggle  
+- [ ] Streak tracker for habits or mood  
 
 ---
 
 ### 2. Screen Archetypes
 
 - **Tasks Screen**
-  - Add/edit/delete tasks
-  - Mark tasks as complete
-  - Display list of tasks
+  - Add/edit/delete tasks  
+  - Mark tasks as complete  
+  - Display list of tasks  
 
 - **Calendar Screen**
-  - View monthly calendar
-  - Select date to view tasks
-  - Tap date → view/edit task list
+  - View monthly calendar  
+  - Select date to view tasks  
+  - Tap date → view/edit task list  
 
 - **Mood Journal Screen**
-  - Choose daily mood (emoji/slider)
-  - Enter optional text note
-  - Save mood entry for the day
+  - Choose daily mood (emoji/slider)  
+  - Enter optional text note  
+  - Save mood entry for the day  
 
 - **Insights Screen**
-  - View graphs of mood over time
-  - Select range: daily/weekly/monthly/yearly
-  - See common moods and streaks
+  - View graphs of mood over time  
+  - Select range: daily/weekly/monthly/yearly  
+  - See common moods and streaks  
 
 ---
 
 ### 3. Navigation
 
-#### Tab Navigation (Tab to Screen)
+**Tab Navigation** (Tab to Screen)  
 - 📝 Tasks → Task List Screen  
 - 📅 Calendar → Monthly Calendar View  
 - 😊 Mood → Mood Journal Entry  
 - 📊 Insights → Mood Analytics & Graphs  
 
-#### Flow Navigation (Screen to Screen)
+**Flow Navigation** (Screen to Screen)  
 - **Tasks Screen**
   - Tap task → Edit Task View  
 - **Calendar Screen**
@@ -92,29 +90,19 @@ Original App Design Project - README Template
 
 ---
 
-## 🖼️ Wireframes
+## Wireframes
 
-_Add picture of your hand-sketched wireframes in this section_
-
-![Wireframe](![Wireframe Preview](wireframe.png)
-)
-
-### [BONUS] Digital Wireframes & Mockups  
-(Add your Figma or Sketch links here)
-
-### [BONUS] Interactive Prototype  
-(Optional: Link to interactive prototype)
+![Wireframe Preview](wireframe.png)
 
 ---
 
-## 🗃️ Schema  
+## Schema 
 
 > This section will be completed in Unit 9.
 
 ### Models
 
 #### Task
-
 | Property | Type   | Description            |
 |----------|--------|------------------------|
 | id       | UUID   | Unique task identifier |
@@ -123,7 +111,6 @@ _Add picture of your hand-sketched wireframes in this section_
 | isDone   | Bool   | Completion status      |
 
 #### MoodEntry
-
 | Property  | Type   | Description               |
 |-----------|--------|---------------------------|
 | id        | UUID   | Unique entry ID           |
@@ -134,6 +121,5 @@ _Add picture of your hand-sketched wireframes in this section_
 ---
 
 ### Networking
-
 - [X] Not currently using external APIs  
 - [X] All data handled locally with CoreData
